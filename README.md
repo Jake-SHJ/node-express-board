@@ -9,7 +9,6 @@ Board Back-End Logic Design based Node.js &amp; Express.js
 1. Post
 
 - 상태값
-  - Idx
   - 작성자
   - 작성시간
   - 작성내용
@@ -46,6 +45,6 @@ Board Back-End Logic Design based Node.js &amp; Express.js
 - 상태값
   - 등록된 Post 배열
 - 책임
-  - Post에서 유효성 검사를 통과한 Post를 등록할 책임
+  - Post에서 유효성 검사를 통과한 Post를 등록하고 Idx를 부여할 책임
   - Editor에서 유효성 검사를 통과한 이전 상태의 Post를 변경할 책임
   - Cleaner에서 유효성 검사를 통과한 Post를 제거할 책임
